@@ -1,0 +1,127 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Adhere to the rules of decorum and respect" : {
+
+    },
+    "And for local travel, would you prefer shared transportation or something more private?🚍 🚘" : {
+
+    },
+    "Answer" : {
+
+    },
+    "Are you going solo, with family, or friends?" : {
+
+    },
+    "Are you more into economy options, or would you like to go for business class?" : {
+
+    },
+    "As-salamu aleikum!" : {
+
+    },
+    "Be aware of the sacred sites you will visit and which prayers and supplications are most appropriate for each. This will help you approach each stage of Umrah with greater mindfulness" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Be aware of the sacred sites you will visit and which prayers and supplications are most appropriate for each. \n\nThis will help you approach each stage \nof Umrah with greater mindfulness"
+          }
+        }
+      }
+    },
+    "Be mindful of your behavior in the holy sites. Show respect and kindness to fellow pilgrims and local residents" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Be mindful that the culture and traditions of Saudi Arabia may differ from what you are accustomed to. \n\nFor instance, adhere to the rules regarding dress code and behavior in public spaces"
+          }
+        }
+      }
+    },
+    "Be mindful that the culture and traditions of Saudi Arabia may differ from what you are accustomed to. For instance, adhere to the rules regarding dress code and behavior in public spaces" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Be mindful of your behavior in the holy sites. \nShow respect and kindness to fellow pilgrims and \nlocal residents"
+          }
+        }
+      }
+    },
+    "Before embarking on your journey for Umrah," : {
+
+    },
+    "Did you know?" : {
+
+    },
+    "Do you have any dietary preferences or special requirements for your meals?🍽️" : {
+
+    },
+    "Do you have any specific dates in mind?" : {
+
+    },
+    "Ensure that your intentions are pure and that you are undertaking this pilgrimage sincerely for the sake of Allah." : {
+
+    },
+    "Ensuring everyone can experience this blessed pilgrimage." : {
+
+    },
+    "Familiarize yourself with the local customs and traditions" : {
+
+    },
+    "Final report" : {
+
+    },
+    "How do you prefer to travel?✈️ " : {
+
+    },
+    "How many people will be traveling with you?👥" : {
+
+    },
+    "Instruction" : {
+
+    },
+    "Knowledge of the locations" : {
+
+    },
+    "Our goal is to make the journey of Umrah accessible to all Muslims!" : {
+
+    },
+    "Please answer us a few questions and we will calculate your trip to %@" : {
+
+    },
+    "Prayers and supplications" : {
+
+    },
+    "Prepare to engage in additional prayers and supplications during your time in the holy sites. Pay special attention to praying for yourself and your loved ones" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prepare to engage in additional prayers and \nsupplications during your time in the holy sites. \n\nPay special attention to praying for \nyourself and your loved ones"
+          }
+        }
+      }
+    },
+    "Something budget-friendly, mid-range, or perhaps a bit more luxurious?" : {
+
+    },
+    "Start" : {
+
+    },
+    "Umrah" : {
+
+    },
+    "Visit Umrah" : {
+
+    },
+    "What kind of accommodation are you looking for?🏡" : {
+
+    },
+    "When are you planning to make your trip?🗓" : {
+
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2420E7CE2C561E56003459A3 /* UmrahApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420E7CD2C561E56003459A3 /* UmrahApp.swift */; };
+		2420E7D02C561E56003459A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420E7CF2C561E56003459A3 /* ContentView.swift */; };
+		2420E7D22C561E58003459A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2420E7D12C561E58003459A3 /* Assets.xcassets */; };
+		2420E7D52C561E58003459A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2420E7D42C561E58003459A3 /* Preview Assets.xcassets */; };
+		2420E7DF2C561E58003459A3 /* UmrahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420E7DE2C561E58003459A3 /* UmrahTests.swift */; };
+		2420E7E92C561E58003459A3 /* UmrahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420E7E82C561E58003459A3 /* UmrahUITests.swift */; };
+		2420E7EB2C561E58003459A3 /* UmrahUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420E7EA2C561E58003459A3 /* UmrahUITestsLaunchTests.swift */; };
+		2420E7F82C561F83003459A3 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420E7F72C561F83003459A3 /* Welcome.swift */; };
+		2420E7FC2C562864003459A3 /* QuestionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420E7FB2C562864003459A3 /* QuestionsModel.swift */; };
+		2420E7FE2C562C83003459A3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420E7FD2C562C83003459A3 /* Question.swift */; };
+		2420E8002C56511D003459A3 /* Launchscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2420E7FF2C56511D003459A3 /* Launchscreen.storyboard */; };
+		2420E8042C565243003459A3 /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = 2420E8032C565243003459A3 /* SwiftUIIntrospect */; };
+		2420E8062C565355003459A3 /* Recommendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420E8052C565355003459A3 /* Recommendations.swift */; };
+		2420E8082C5657A2003459A3 /* RecommendationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420E8072C5657A2003459A3 /* RecommendationModel.swift */; };
+		2420E80A2C565A33003459A3 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420E8092C565A33003459A3 /* Navigation.swift */; };
+		2420E80D2C565ECC003459A3 /* SwiftUIGIF in Frameworks */ = {isa = PBXBuildFile; productRef = 2420E80C2C565ECC003459A3 /* SwiftUIGIF */; };
+		2420E80F2C566006003459A3 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2420E80E2C566006003459A3 /* Localizable.xcstrings */; };
+		2420E8122C566411003459A3 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2420E8112C566411003459A3 /* Lottie */; };
+		2420E8152C566479003459A3 /* recommendation-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 2420E8142C566479003459A3 /* recommendation-3.json */; };
+		2420E8172C566722003459A3 /* recommendation-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2420E8162C566722003459A3 /* recommendation-2.json */; };
+		2420E8192C566738003459A3 /* recommendation-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 2420E8182C566738003459A3 /* recommendation-1.json */; };
+		2420E81B2C56674A003459A3 /* recommendation-4.json in Resources */ = {isa = PBXBuildFile; fileRef = 2420E81A2C56674A003459A3 /* recommendation-4.json */; };
+		2420E81D2C56675A003459A3 /* recommendation-5.json in Resources */ = {isa = PBXBuildFile; fileRef = 2420E81C2C56675A003459A3 /* recommendation-5.json */; };
+		2420E8202C566B46003459A3 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 2420E81F2C566B46003459A3 /* OpenAI */; };
+		2420E8232C566B5B003459A3 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420E8222C566B5B003459A3 /* Client.swift */; };
+		2420E8252C567C73003459A3 /* FinalReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420E8242C567C73003459A3 /* FinalReport.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2420E7DB2C561E58003459A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2420E7C22C561E56003459A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2420E7C92C561E56003459A3;
+			remoteInfo = Umrah;
+		};
+		2420E7E52C561E58003459A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2420E7C22C561E56003459A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2420E7C92C561E56003459A3;
+			remoteInfo = Umrah;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2420E7CA2C561E56003459A3 /* Umrah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umrah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2420E7CD2C561E56003459A3 /* UmrahApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmrahApp.swift; sourceTree = "<group>"; };
+		2420E7CF2C561E56003459A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2420E7D12C561E58003459A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2420E7D42C561E58003459A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2420E7DA2C561E58003459A3 /* UmrahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmrahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2420E7DE2C561E58003459A3 /* UmrahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmrahTests.swift; sourceTree = "<group>"; };
+		2420E7E42C561E58003459A3 /* UmrahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmrahUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2420E7E82C561E58003459A3 /* UmrahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmrahUITests.swift; sourceTree = "<group>"; };
+		2420E7EA2C561E58003459A3 /* UmrahUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmrahUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2420E7F72C561F83003459A3 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		2420E7FB2C562864003459A3 /* QuestionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsModel.swift; sourceTree = "<group>"; };
+		2420E7FD2C562C83003459A3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		2420E7FF2C56511D003459A3 /* Launchscreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launchscreen.storyboard; sourceTree = "<group>"; };
+		2420E8012C5651CA003459A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2420E8052C565355003459A3 /* Recommendations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendations.swift; sourceTree = "<group>"; };
+		2420E8072C5657A2003459A3 /* RecommendationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationModel.swift; sourceTree = "<group>"; };
+		2420E8092C565A33003459A3 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		2420E80E2C566006003459A3 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		2420E8142C566479003459A3 /* recommendation-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "recommendation-3.json"; sourceTree = "<group>"; };
+		2420E8162C566722003459A3 /* recommendation-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "recommendation-2.json"; sourceTree = "<group>"; };
+		2420E8182C566738003459A3 /* recommendation-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "recommendation-1.json"; sourceTree = "<group>"; };
+		2420E81A2C56674A003459A3 /* recommendation-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "recommendation-4.json"; sourceTree = "<group>"; };
+		2420E81C2C56675A003459A3 /* recommendation-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "recommendation-5.json"; sourceTree = "<group>"; };
+		2420E8222C566B5B003459A3 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		2420E8242C567C73003459A3 /* FinalReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalReport.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2420E7C72C561E56003459A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2420E8042C565243003459A3 /* SwiftUIIntrospect in Frameworks */,
+				2420E80D2C565ECC003459A3 /* SwiftUIGIF in Frameworks */,
+				2420E8202C566B46003459A3 /* OpenAI in Frameworks */,
+				2420E8122C566411003459A3 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2420E7D72C561E58003459A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2420E7E12C561E58003459A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2420E7C12C561E56003459A3 = {
+			isa = PBXGroup;
+			children = (
+				2420E7CC2C561E56003459A3 /* Umrah */,
+				2420E7DD2C561E58003459A3 /* UmrahTests */,
+				2420E7E72C561E58003459A3 /* UmrahUITests */,
+				2420E7CB2C561E56003459A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2420E7CB2C561E56003459A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2420E7CA2C561E56003459A3 /* Umrah.app */,
+				2420E7DA2C561E58003459A3 /* UmrahTests.xctest */,
+				2420E7E42C561E58003459A3 /* UmrahUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2420E7CC2C561E56003459A3 /* Umrah */ = {
+			isa = PBXGroup;
+			children = (
+				2420E8212C566B55003459A3 /* ChatGPT */,
+				2420E8132C566465003459A3 /* LottieAssets */,
+				2420E8012C5651CA003459A3 /* Info.plist */,
+				2420E7CD2C561E56003459A3 /* UmrahApp.swift */,
+				2420E80E2C566006003459A3 /* Localizable.xcstrings */,
+				2420E7CF2C561E56003459A3 /* ContentView.swift */,
+				2420E8092C565A33003459A3 /* Navigation.swift */,
+				2420E7F72C561F83003459A3 /* Welcome.swift */,
+				2420E7FD2C562C83003459A3 /* Question.swift */,
+				2420E7FB2C562864003459A3 /* QuestionsModel.swift */,
+				2420E8052C565355003459A3 /* Recommendations.swift */,
+				2420E8242C567C73003459A3 /* FinalReport.swift */,
+				2420E8072C5657A2003459A3 /* RecommendationModel.swift */,
+				2420E7D12C561E58003459A3 /* Assets.xcassets */,
+				2420E7D32C561E58003459A3 /* Preview Content */,
+				2420E7FF2C56511D003459A3 /* Launchscreen.storyboard */,
+			);
+			path = Umrah;
+			sourceTree = "<group>";
+		};
+		2420E7D32C561E58003459A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2420E7D42C561E58003459A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2420E7DD2C561E58003459A3 /* UmrahTests */ = {
+			isa = PBXGroup;
+			children = (
+				2420E7DE2C561E58003459A3 /* UmrahTests.swift */,
+			);
+			path = UmrahTests;
+			sourceTree = "<group>";
+		};
+		2420E7E72C561E58003459A3 /* UmrahUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2420E7E82C561E58003459A3 /* UmrahUITests.swift */,
+				2420E7EA2C561E58003459A3 /* UmrahUITestsLaunchTests.swift */,
+			);
+			path = UmrahUITests;
+			sourceTree = "<group>";
+		};
+		2420E8132C566465003459A3 /* LottieAssets */ = {
+			isa = PBXGroup;
+			children = (
+				2420E8182C566738003459A3 /* recommendation-1.json */,
+				2420E81A2C56674A003459A3 /* recommendation-4.json */,
+				2420E8162C566722003459A3 /* recommendation-2.json */,
+				2420E8142C566479003459A3 /* recommendation-3.json */,
+				2420E81C2C56675A003459A3 /* recommendation-5.json */,
+			);
+			path = LottieAssets;
+			sourceTree = "<group>";
+		};
+		2420E8212C566B55003459A3 /* ChatGPT */ = {
+			isa = PBXGroup;
+			children = (
+				2420E8222C566B5B003459A3 /* Client.swift */,
+			);
+			path = ChatGPT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2420E7C92C561E56003459A3 /* Umrah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2420E7EE2C561E58003459A3 /* Build configuration list for PBXNativeTarget "Umrah" */;
+			buildPhases = (
+				2420E7C62C561E56003459A3 /* Sources */,
+				2420E7C72C561E56003459A3 /* Frameworks */,
+				2420E7C82C561E56003459A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Umrah;
+			packageProductDependencies = (
+				2420E8032C565243003459A3 /* SwiftUIIntrospect */,
+				2420E80C2C565ECC003459A3 /* SwiftUIGIF */,
+				2420E8112C566411003459A3 /* Lottie */,
+				2420E81F2C566B46003459A3 /* OpenAI */,
+			);
+			productName = Umrah;
+			productReference = 2420E7CA2C561E56003459A3 /* Umrah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2420E7D92C561E58003459A3 /* UmrahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2420E7F12C561E58003459A3 /* Build configuration list for PBXNativeTarget "UmrahTests" */;
+			buildPhases = (
+				2420E7D62C561E58003459A3 /* Sources */,
+				2420E7D72C561E58003459A3 /* Frameworks */,
+				2420E7D82C561E58003459A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2420E7DC2C561E58003459A3 /* PBXTargetDependency */,
+			);
+			name = UmrahTests;
+			productName = UmrahTests;
+			productReference = 2420E7DA2C561E58003459A3 /* UmrahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2420E7E32C561E58003459A3 /* UmrahUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2420E7F42C561E58003459A3 /* Build configuration list for PBXNativeTarget "UmrahUITests" */;
+			buildPhases = (
+				2420E7E02C561E58003459A3 /* Sources */,
+				2420E7E12C561E58003459A3 /* Frameworks */,
+				2420E7E22C561E58003459A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2420E7E62C561E58003459A3 /* PBXTargetDependency */,
+			);
+			name = UmrahUITests;
+			productName = UmrahUITests;
+			productReference = 2420E7E42C561E58003459A3 /* UmrahUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2420E7C22C561E56003459A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2420E7C92C561E56003459A3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2420E7D92C561E58003459A3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2420E7C92C561E56003459A3;
+					};
+					2420E7E32C561E58003459A3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2420E7C92C561E56003459A3;
+					};
+				};
+			};
+			buildConfigurationList = 2420E7C52C561E56003459A3 /* Build configuration list for PBXProject "Umrah" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 2420E7C12C561E56003459A3;
+			packageReferences = (
+				2420E8022C565243003459A3 /* XCRemoteSwiftPackageReference "swiftui-introspect" */,
+				2420E80B2C565ECC003459A3 /* XCRemoteSwiftPackageReference "swiftui-gif" */,
+				2420E8102C566411003459A3 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				2420E81E2C566B46003459A3 /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
+			productRefGroup = 2420E7CB2C561E56003459A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2420E7C92C561E56003459A3 /* Umrah */,
+				2420E7D92C561E58003459A3 /* UmrahTests */,
+				2420E7E32C561E58003459A3 /* UmrahUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2420E7C82C561E56003459A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2420E8002C56511D003459A3 /* Launchscreen.storyboard in Resources */,
+				2420E7D52C561E58003459A3 /* Preview Assets.xcassets in Resources */,
+				2420E80F2C566006003459A3 /* Localizable.xcstrings in Resources */,
+				2420E7D22C561E58003459A3 /* Assets.xcassets in Resources */,
+				2420E8152C566479003459A3 /* recommendation-3.json in Resources */,
+				2420E8172C566722003459A3 /* recommendation-2.json in Resources */,
+				2420E81D2C56675A003459A3 /* recommendation-5.json in Resources */,
+				2420E81B2C56674A003459A3 /* recommendation-4.json in Resources */,
+				2420E8192C566738003459A3 /* recommendation-1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2420E7D82C561E58003459A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2420E7E22C561E58003459A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2420E7C62C561E56003459A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2420E8252C567C73003459A3 /* FinalReport.swift in Sources */,
+				2420E7D02C561E56003459A3 /* ContentView.swift in Sources */,
+				2420E7FC2C562864003459A3 /* QuestionsModel.swift in Sources */,
+				2420E7FE2C562C83003459A3 /* Question.swift in Sources */,
+				2420E80A2C565A33003459A3 /* Navigation.swift in Sources */,
+				2420E7F82C561F83003459A3 /* Welcome.swift in Sources */,
+				2420E8062C565355003459A3 /* Recommendations.swift in Sources */,
+				2420E7CE2C561E56003459A3 /* UmrahApp.swift in Sources */,
+				2420E8082C5657A2003459A3 /* RecommendationModel.swift in Sources */,
+				2420E8232C566B5B003459A3 /* Client.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2420E7D62C561E58003459A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2420E7DF2C561E58003459A3 /* UmrahTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2420E7E02C561E58003459A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2420E7EB2C561E58003459A3 /* UmrahUITestsLaunchTests.swift in Sources */,
+				2420E7E92C561E58003459A3 /* UmrahUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2420E7DC2C561E58003459A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2420E7C92C561E56003459A3 /* Umrah */;
+			targetProxy = 2420E7DB2C561E58003459A3 /* PBXContainerItemProxy */;
+		};
+		2420E7E62C561E58003459A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2420E7C92C561E56003459A3 /* Umrah */;
+			targetProxy = 2420E7E52C561E58003459A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2420E7EC2C561E58003459A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2420E7ED2C561E58003459A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2420E7EF2C561E58003459A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Umrah/Preview Content\"";
+				DEVELOPMENT_TEAM = Z87P2FVSRW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Umrah/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Launchscreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.sajda.Umrah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2420E7F02C561E58003459A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Umrah/Preview Content\"";
+				DEVELOPMENT_TEAM = Z87P2FVSRW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Umrah/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Launchscreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.sajda.Umrah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2420E7F22C561E58003459A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z87P2FVSRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.sajda.UmrahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Umrah.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Umrah";
+			};
+			name = Debug;
+		};
+		2420E7F32C561E58003459A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z87P2FVSRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.sajda.UmrahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Umrah.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Umrah";
+			};
+			name = Release;
+		};
+		2420E7F52C561E58003459A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z87P2FVSRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.sajda.UmrahUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Umrah;
+			};
+			name = Debug;
+		};
+		2420E7F62C561E58003459A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z87P2FVSRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.sajda.UmrahUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Umrah;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2420E7C52C561E56003459A3 /* Build configuration list for PBXProject "Umrah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2420E7EC2C561E58003459A3 /* Debug */,
+				2420E7ED2C561E58003459A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2420E7EE2C561E58003459A3 /* Build configuration list for PBXNativeTarget "Umrah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2420E7EF2C561E58003459A3 /* Debug */,
+				2420E7F02C561E58003459A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2420E7F12C561E58003459A3 /* Build configuration list for PBXNativeTarget "UmrahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2420E7F22C561E58003459A3 /* Debug */,
+				2420E7F32C561E58003459A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2420E7F42C561E58003459A3 /* Build configuration list for PBXNativeTarget "UmrahUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2420E7F52C561E58003459A3 /* Debug */,
+				2420E7F62C561E58003459A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2420E8022C565243003459A3 /* XCRemoteSwiftPackageReference "swiftui-introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/swiftui-introspect";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+		2420E80B2C565ECC003459A3 /* XCRemoteSwiftPackageReference "swiftui-gif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/globulus/swiftui-gif";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		2420E8102C566411003459A3 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+		2420E81E2C566B46003459A3 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI";
+			requirement = {
+				kind = exactVersion;
+				version = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2420E8032C565243003459A3 /* SwiftUIIntrospect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2420E8022C565243003459A3 /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
+			productName = SwiftUIIntrospect;
+		};
+		2420E80C2C565ECC003459A3 /* SwiftUIGIF */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2420E80B2C565ECC003459A3 /* XCRemoteSwiftPackageReference "swiftui-gif" */;
+			productName = SwiftUIGIF;
+		};
+		2420E8112C566411003459A3 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2420E8102C566411003459A3 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		2420E81F2C566B46003459A3 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2420E81E2C566B46003459A3 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2420E7C22C561E56003459A3 /* Project object */;
+}
