@@ -27,9 +27,9 @@ While working on this project, I learned:
 
 ## References
 
-(https://blog.hubspot.com/website/chatgpt-integration)
-(https://github.com/JackieQi/XcodeGPT)
-(https://habr.com/ru/companies/lamoda/articles/775162/)
+- (https://blog.hubspot.com/website/chatgpt-integration)
+- (https://github.com/JackieQi/XcodeGPT)
+- (https://habr.com/ru/companies/lamoda/articles/775162/)
 
 ## We are in Social Media
 
