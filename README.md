@@ -33,6 +33,8 @@ While working on this project, I learned:
 
 ## We are in Social Media
 
-
+- (https://www.linkedin.com/posts/deen-developers_launching-deen-developers-in-central-asia-activity-7224444498271993856-4Brk?utm_source=share&utm_medium=member_desktop&rcm=ACoAADDoU8ABs2-H3she4Om5148nd_OkvRzDSCY)
+- (https://www.instagram.com/p/C-Hyosjo2wg/&ved=2ahUKEwipuoGtxcmRAxV3OBAIHQPmCgsQFnoECB8QAQ&usg=AOvVaw1IuTAPeJy82jTOL9nXJ18z)
+- (https://www.instagram.com/reel/C-DhEYaCSMo/?igsh=MThsbGYwenoxN2M5eg==)
 
 
